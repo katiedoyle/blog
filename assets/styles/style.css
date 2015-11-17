@@ -1,0 +1,445 @@
+body {
+	background-color: white;
+	margin: 0;
+	width: 100%;
+    line-height: 1.7;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.row {
+	width: 100%;
+}
+
+.header .container {
+	padding: 30px 9px 30px 5px;
+}
+
+.header {
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: white;
+}
+
+.clearfix {
+	display: block;
+}
+
+.sitelogo {
+	text-align: left;
+}
+
+.sitetitle img {
+	margin: 0 auto 0 0;
+    display: block;
+    max-width: 100%;
+    width: 440px;
+    height: auto;
+}
+
+.socialheader {
+	margin-top: 70px;
+    text-align: right;
+}
+
+.socialheader a {
+	font-size: 20px;
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.socialheader a:hover {
+	color: #9E9E9E;
+	transition: color .2s linear;
+}
+
+.font {
+	font-family: 'Playfair Display SC', serif;
+}
+
+.sitetop {
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+    width: 100%;
+}
+
+.menuwrap1 {
+    color: black;
+    font-size: 14px;
+    position: relative;
+    text-align: left;
+    line-height: 1.7;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+ul {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+ul li a {
+	font-size: 15px; 
+	font-family: 'Playfair Display SC', Serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 40px;
+    line-height: 36px;
+    text-align: left;
+    display: block;
+}
+
+ul li a:hover{
+	color: white;
+	background-color: #688898;
+	transition: color .4s linear;
+	transition: background-color .4s linear;
+}
+
+/*slideshow*/
+
+.slidewrapper1 {
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/beach3.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.slidewrapper2 {
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/prague.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.slidewrapper3 {
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/spring.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.slidewrapper4 {
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/thai2.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.slidewrapper5 {
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/beach2.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+#slideshow {  
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+
+.slide-inside {
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    background: transparent;
+}
+
+.slidebox {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-container {
+    display: block;
+    color: black;
+    letter-spacing: 0;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgba(255,255,255,.8);
+}
+
+.cat {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.slide-link a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Playfair Display SC', Serif;
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.slide-text {
+    font-family: 'Georgia', Serif;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.read-post a {
+    font-family: 'Playfair Display SC',sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 12px 26px;
+}
+
+.read-post a:hover {
+    color: white;
+    background-color: #688898;
+    transition: color .4s linear;
+    transition: background-color .4s linear;
+}
+
+.divider-line {
+    position: relative;
+    top: 440px;
+    text-align: center;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
+.divider {
+    font-family: 'Playfair Display SC',sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: 1px solid #ddd;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 415px;
+}
+
+.divider-wrap {
+    display: block;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    top: 440px;
+    padding-right: 0;
+}
+
+.center {
+    margin-right: 0;
+    margin-left: -10px;
+}
+
+.col-xs-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.tab-content {
+    display: inherit;
+    padding: 0;
+    text-align: center;
+}
+
+.post-box {
+    position: relative;
+    width: 33.05%;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.item-1 {
+    background-image: url(../images/pavillion.jpg);
+}
+
+.item-2 {
+    background-image: url(../images/gircrop.jpg);
+}
+
+.item-3 {
+    background-image: url(../images/fest12.jpg);
+}
+
+.item-4 {
+    background-image: url(../images/house2.jpg);
+}
+
+.item-5 {
+    background-image: url(../images/bridge.jpg);
+}
+
+.item-6 {
+    background-image: url(../images/hummus.jpg);
+}
+
+.post {
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 480px;
+}
+
+a .post {
+    background: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.post:hover {
+    opacity: .9;
+    color: black;
+    transition: all .2s ease-out;
+}
+
+.text-box {
+    position: absolute;
+    bottom: auto;
+    display: block;
+    height: 240px;
+    left: 10%;
+    right: 10%;
+    top: 25%;
+    padding: 4em .5em;
+    background: rgba(255,255,255,0.8);
+}
+
+.title {
+    font-family: 'Playfair Display SC',sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+.read-more {
+    font-family: 'Playfair Display SC',sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 12px 26px;
+    margin-top: 20px;
+}
+
+.read-more:hover {
+    color: white;
+    background-color: #688898;
+    transition: color .4s linear;
+    transition: background-color .2s ease-out;
+}
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+.col-sm-6 {
+    width: 50%;
+}}
+
+@media (max-width: 1023px) {
+    ul li a {
+        padding: 0 22px;
+    }
+    ul {
+         text-align: center;
+    }
+    .shrink {
+        height: 300px;
+    }
+    .divider-line {
+        top: 330px;
+    }
+    .divider {
+        top: 305px;
+    }
+}
+
+@media (max-width: 768px) {
+    .socialheader {
+        display: none;
+    }
+    .sitetitle img {
+        margin: 0 auto;
+    }
+    ul li a {
+        font-size: 100%;
+        padding: 0 5px;
+    }
+    .shrink {
+        height: 200px;
+    }
+    .divider-line {
+        top: 230px;
+    }
+    .divider {
+        top: 205px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+.sitetitle img {
+    margin-left: 0;
+}}
