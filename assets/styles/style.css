@@ -63,7 +63,6 @@ a:hover {
 	margin: 10px;
 	text-decoration: none;
 	color: black;
-
 }
 
 .socialheader a:hover {
@@ -168,10 +167,10 @@ ul li a:hover{
 
 #slideshow {  
     width: 100%;
+    height: 420px;
     display: block;
     text-align: center;
     margin: 0;
-    margin-bottom: 30px;
 }
 
 #slideshow > div { 
@@ -243,8 +242,7 @@ ul li a:hover{
 }
 
 .divider-line {
-    position: relative;
-    top: 440px;
+    margin-top: 60px;
     text-align: center;
     height: 1px;
     background-color: black;
@@ -263,7 +261,7 @@ ul li a:hover{
     display: inline-block;
     font-size: 16px;
     position: relative;
-    top: 415px;
+    top: -25px;
 }
 
 .divider-wrap {
@@ -272,8 +270,6 @@ ul li a:hover{
 }
 
 .main {
-    position: relative;
-    top: 440px;
     padding-right: 0;
 }
 
@@ -392,6 +388,41 @@ a .post {
     transition: background-color .2s ease-out;
 }
 
+.footer {
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #688898;
+    transition: color .2s linear;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.foot-left {
+    text-align: left;
+    width: 50%;
+}
+
+.foot-right {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+}
+
 /*Media Queries*/
 
 @media (min-width: 768px) {
@@ -409,11 +440,14 @@ a .post {
     .shrink {
         height: 300px;
     }
-    .divider-line {
-        top: 330px;
+    #slideshow {
+        height: 300px;
     }
-    .divider {
-        top: 305px;
+    .post-box {
+        width: 45%;
+    }
+    .footer a {
+        margin: 9px;
     }
 }
 
@@ -431,11 +465,35 @@ a .post {
     .shrink {
         height: 200px;
     }
-    .divider-line {
-        top: 230px;
+    #slideshow {
+        height: 200px;
     }
-    .divider {
-        top: 205px;
+    .slide-text {
+        display: none;
+    }
+    .cat {
+        display: block;
+    }
+    .read-post {
+        display: block;
+    }
+    .slide-container {
+        width: 370px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .post-box {
+        width: 100%;
+    }
+    .footer a {
+        margin: 9px;
+    }
+    .foot-left {
+        display: none;
+    }
+    .foot-right {
+        width: 100%;
+        text-align: center;
     }
 }
 
