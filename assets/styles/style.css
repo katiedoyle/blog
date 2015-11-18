@@ -86,7 +86,7 @@ a:hover {
     color: black;
     font-size: 14px;
     position: relative;
-    text-align: left;
+    text-align: center;
     line-height: 1.7;
     display: block;
     width: auto;
@@ -393,6 +393,8 @@ a .post {
     transition: background-color .2s ease-out;
 }
 
+/*footer*/
+
 .footer {
     margin-top: 20px;
     background-color: black;
@@ -415,6 +417,7 @@ a .post {
 
 .footer-logo {
     width: 200px;
+    margin-right: 15%
 }
 
 .foot-left {
@@ -430,6 +433,11 @@ a .post {
 
 .info {
     display: none;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /*Travel page*/
