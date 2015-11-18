@@ -11,4 +11,12 @@ setInterval(function() {
     .appendTo('#slideshow');
 },  4500);
 
+$(document).ready(function() {
+    $("ul li a").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+
 });

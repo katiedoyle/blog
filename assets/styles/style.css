@@ -123,6 +123,11 @@ ul li a:hover{
 	transition: background-color .4s linear;
 }
 
+.active {
+    background-color: #688898;
+    color: white;
+}
+
 /*slideshow*/
 
 .slidewrapper1 {
@@ -423,6 +428,13 @@ a .post {
     display: inline-block;
 }
 
+.info {
+    display: none;
+}
+
+/*Travel page*/
+
+
 /*Media Queries*/
 
 @media (min-width: 768px) {
@@ -494,6 +506,15 @@ a .post {
     .foot-right {
         width: 100%;
         text-align: center;
+    }
+    .info {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 493px) {
+    .bye {
+        display: none;
     }
 }
 
