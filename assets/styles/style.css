@@ -440,8 +440,160 @@ a .post {
     margin: 0 auto;
 }
 
-/*Travel page*/
+/*category banners*/
 
+.banner {
+    width: 100%;
+    height: 420px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.cat-title {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner1 {
+    background-image: url(../images/beach.jpg);
+}
+
+.banner2 {
+    background-image: url(../images/friends.jpg);
+}
+
+.banner3 {
+    background-image: url(../images/spring.jpg);
+}
+
+/*travel page*/
+
+.travel-1 {
+    background-image: url(../images/pavillion.jpg);
+}
+
+.travel-2 {
+    background-image: url(../images/bridge.jpg);
+}
+
+.travel-3 {
+    background-image: url(../images/prague.jpg);
+}
+
+.travel-4 {
+    background-image: url(../images/beach2.jpg);
+}
+
+.travel-5 {
+    background-image: url(../images/barc.jpg);
+}
+
+.travel-6 {
+    background-image: url(../images/karl.jpg);
+}
+
+/*life page*/
+
+.life-1 {
+    background-image: url(../images/fest1.jpg);
+}
+
+.life-3 {
+    background-image: url(../images/blooms.jpg);
+}
+
+.life-4 {
+    background-image: url(../images/flowers.jpg);
+}
+
+.life-5 {
+    background-image: url(../images/fest9.jpg);
+}
+
+.life-6 {
+    background-image: url(../images/media.jpg);
+}
+
+/*style page*/
+
+.style-1 {
+    background-image: url(../images/fallboots.jpg);
+}
+
+.style-2 {
+    background-image: url(../images/catcher2.jpg);
+}
+
+.style-3 {
+    background-image: url(../images/house4.jpg);
+}
+
+.style-5 {
+    background-image: url(../images/jewelry1.jpg);
+}
+
+.style-6 {
+    background-image: url(../images/lantern.jpg);
+}
+
+/*food page*/
+
+.food-2 {
+    background-image: url(../images/noodles.jpg);
+}
+
+.food-3 {
+    background-image: url(../images/pizzabrain.jpg);
+}
+
+.food-4 {
+    background-image: url(../images/tea.jpg);
+}
+
+.food-5 {
+    background-image: url(../images/marg.jpg);
+}
+
+.food-6 {
+    background-image: url(../images/eggs.jpg);
+}
+
+/*beauty page*/
+
+.beaut-1 {
+    background-image: url(../images/lipstick.jpg);
+}
+
+.beaut-2 {
+    background-image: url(../images/gwen.jpg);
+}
+
+.beaut-3 {
+    background-image: url(../images/kiko.jpg);
+}
+
+.beaut-4 {
+    background-image: url(../images/toofaced.jpg);
+}
+
+.beaut-5 {
+    background-image: url(../images/ginzing.jpg);
+}
+
+.beaut-6 {
+    background-image: url(../images/faves.jpg);
+}
+
+/*about page*/
+
+.filler {
+    height: 400px;
+}
 
 /*Media Queries*/
 
