@@ -468,8 +468,121 @@ a .post {
 }
 
 .banner3 {
-    background-image: url(../images/spring.jpg);
+    background-image: url(../images/jewelry2.jpg);
 }
+
+.banner4 {
+    background-image: url(../images/toofaced.jpg);
+}
+
+.banner5 {
+    background-image: url(../images/produce.jpg);
+}
+
+/*first post*/
+
+.banner6 {
+    background-image: url(../images/beach.jpg);
+}
+
+.post-title {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bigger {
+    width: 700px;
+}
+
+.stupid {
+    position: relative;
+    width: 47%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.stupid-1 {
+    background-color: #D5E6EB;
+    vertical-align: top;
+}
+
+.stupid-2 {
+    background-image: url(../images/pavillion.jpg);
+    vertical-align: top;
+    height: 625px;
+}
+
+.lorem {
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 13px;
+}
+
+.big-img {
+    position: relative;
+    width: 94.3%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.big1 {
+    background-image: url(../images/beach3.jpg);
+}
+
+.flat-text {
+    position: relative;
+    width: 94.3%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #D5E6EB;
+}
+
+.again {
+    position: relative;
+    width: 47%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.stupid-3 {
+    background-image: url(../images/beach2.jpg);
+    height: 700px;
+}
+
+.stupid-4 {
+    background-image: url(../images/beachhill.jpg);
+    height: 700px;
+}
+
+.big2 {
+    background-image: url(../images/dock.jpg);
+}
+
 
 /*travel page*/
 
@@ -570,7 +683,7 @@ a .post {
 }
 
 .beaut-2 {
-    background-image: url(../images/gwen.jpg);
+    background-image: url(../images/gwen1.jpg);
 }
 
 .beaut-3 {
@@ -621,6 +734,9 @@ a .post {
     .footer a {
         margin: 9px;
     }
+    .stupid-2 {
+        height: 700px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -669,6 +785,27 @@ a .post {
     }
     .info {
         display: inline-block;
+    }
+    .post-title {
+        font-size: 27px;
+    }
+    .stupid {
+        width: 100%;
+    }
+    .stupid-2 {
+        margin-top: 10px;
+    }
+    .big-img {
+        width: 100%;
+    }
+    .flat-text {
+        width: 100%;
+    }
+    .stupid-3 {
+        width: 100%;
+    }
+    .stupid-4 {
+        width: 100%;
     }
 }
 
