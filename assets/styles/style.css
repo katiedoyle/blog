@@ -581,6 +581,7 @@ a .post {
 
 .big2 {
     background-image: url(../images/dock.jpg);
+    height: 1000px;
 }
 
 
@@ -715,6 +716,16 @@ a .post {
     width: 50%;
 }}
 
+@media (max-width: 1040px) {
+    .stupid {
+        width: 94.3%;
+    }
+    .stupid-2 {
+        margin-top: 10px;
+        height: 1000px;
+    }
+}
+
 @media (max-width: 1023px) {
     ul li a {
         padding: 0 22px;
@@ -733,9 +744,6 @@ a .post {
     }
     .footer a {
         margin: 9px;
-    }
-    .stupid-2 {
-        height: 700px;
     }
 }
 
@@ -807,6 +815,8 @@ a .post {
     .stupid-4 {
         width: 100%;
     }
+    .cat-title {
+        font-size: 50px;
 }
 
 @media (max-width: 493px) {
