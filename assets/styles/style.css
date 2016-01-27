@@ -680,34 +680,88 @@ a .post {
 /*beauty page*/
 
 .beaut-1 {
-    background-image: url(../images/lipstick.jpg);
+    background-image: url(../images/beauty1.jpg);
 }
 
 .beaut-2 {
-    background-image: url(../images/gwen1.jpg);
+    background-image: url(../images/beauty2.jpg);
 }
 
 .beaut-3 {
-    background-image: url(../images/kiko.jpg);
+    background-image: url(../images/beauty3.jpg);
 }
 
 .beaut-4 {
-    background-image: url(../images/toofaced.jpg);
+    background-image: url(../images/beauty4.jpg);
 }
 
 .beaut-5 {
-    background-image: url(../images/ginzing.jpg);
+    background-image: url(../images/beauty5.jpg);
 }
 
 .beaut-6 {
-    background-image: url(../images/faves.jpg);
+    background-image: url(../images/beauty6.jpg);
 }
 
 /*about page*/
 
-.filler {
-    height: 400px;
+.headshot {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-image: url(../images/spring.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+.about-text {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+/*contact page*/
+.contact {
+  color: black;
+  margin-right: 45px;
+  margin-bottom: 45px;
+  font-size: 23px;
+  margin: 20px;
+  font-family: "Lato", sans-serif; 
+    }
+
+.name {
+  margin-bottom: 10px; 
+    }
+
+.email {
+  margin-bottom: 10px; 
+    }
+
+textarea {
+  height: 200px;
+  width: 100%;
+  resize: vertical; 
+    }
+
+.button {
+  margin: 10px 0 30px 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  background-color: white;
+  border: solid 1px black; }
+  .button:hover {
+    color: white;
+    background-color: #688898;
+    transition: color .4s linear;
+    transition: background-color .4s linear; }
 
 /*Media Queries*/
 
