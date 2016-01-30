@@ -711,9 +711,10 @@ a .post {
     width: 250px;
     height: 250px;
     text-align: center;
-    background-image: url(../images/spring.JPG);
+    background-image: url(../images/headshot.jpg);
     background-size: cover;
     border-radius: 50%;
+    border: black solid 1px;
     background-repeat: no-repeat;
     background-position: center;
 }
